@@ -1,7 +1,7 @@
 {
   "name": "tic-tac-toe",
   "private": true,
-  "author":rpc,
+  "author": "rpc",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
