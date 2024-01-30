@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-const Player = ({ intialName, symbol, isActive }) => {
+const Player = ({ initialName, symbol, isActive }) => {
   const [isEditing, setIsEditing] = useState(false);
-  const [playerName, setPlayerName] = useState(intialName);
+  const [playerName, setPlayerName] = useState(initialName);
 
   const handlerIsEditing = () => {
     setIsEditing((editing) => !editing);
